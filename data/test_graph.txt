@@ -1,0 +1,59 @@
+# Dataset de prueba para NeuroNet
+# Formato: NodoOrigen NodoDestino (Edge List)
+# Grafo pequeño para validación rápida
+
+# Componente 1: Estrella (nodo 0 como hub)
+0 1
+0 2
+0 3
+0 4
+0 5
+
+# Componente 2: Cadena
+1 6
+6 7
+7 8
+8 9
+
+# Componente 3: Ciclo
+2 10
+10 11
+11 12
+12 2
+
+# Componente 4: Árbol binario pequeño
+3 13
+3 14
+13 15
+13 16
+14 17
+14 18
+
+# Conexiones adicionales para crear grafo conectado
+4 19
+5 20
+19 20
+20 21
+21 22
+
+# Nodo con alto grado (hub secundario)
+10 23
+10 24
+10 25
+10 26
+10 27
+
+# Más conexiones
+23 24
+24 25
+25 26
+26 27
+27 23
+
+# Aristas adicionales para complejidad
+8 15
+12 17
+18 21
+9 22
+
+# Total aproximado: 28 nodos, 40+ aristas

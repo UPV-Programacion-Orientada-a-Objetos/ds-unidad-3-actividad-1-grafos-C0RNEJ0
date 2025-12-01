@@ -1,0 +1,31 @@
+*.pyc
+__pycache__/
+*.so
+*.o
+*.cpp.o
+build/
+dist/
+*.egg-info/
+.eggs/
+*.c
+*.html
+
+# Cython generated files
+src/grafo_wrapper.cpp
+
+# Datasets grandes
+data/*.gz
+data/web-Google.txt
+data/amazon*.txt
+data/email-*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
