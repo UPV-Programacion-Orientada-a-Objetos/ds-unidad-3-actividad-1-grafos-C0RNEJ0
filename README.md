@@ -124,7 +124,7 @@ Para resolver este problema se deberá investigar:
 
 -----
 
-# 🚀 IMPLEMENTACIÓN: NeuroNet
+# IMPLEMENTACIÓN: NeuroNet
 
 ## Autor
 **Jose Guadalupe Cornejo Alva**
@@ -180,7 +180,7 @@ graph TB
 
 -----
 
-## 📋 Requisitos del Sistema
+## Requisitos del Sistema
 
 ### Software Necesario
 
@@ -202,7 +202,7 @@ g++ --version  # o clang++ --version
 
 -----
 
-## 🔧 Compilación e Instalación
+## Compilación e Instalación
 
 ### Paso 1: Compilar el Módulo Cython
 
@@ -225,12 +225,12 @@ copying build/lib.linux-x86_64-3.x/grafo_wrapper.cpython-xxx.so -> .
 
 ```bash
 # Probar importación
-python -c "from grafo_wrapper import PyGrafoDisperso; print('✓ Módulo compilado correctamente')"
+python -c "from grafo_wrapper import PyGrafoDisperso; print('Módulo compilado correctamente')"
 ```
 
 -----
 
-## 🎮 Uso del Sistema
+## Uso del Sistema
 
 ### Opción 1: Interfaz Gráfica (Recomendado)
 
@@ -240,10 +240,10 @@ python neuronet_gui.py
 
 **Funcionalidades de la GUI:**
 
-1. **Cargar Dataset**: Click en "📁 Cargar Dataset" → Seleccionar archivo `.txt`
+1. **Cargar Dataset**: Click en "Cargar Dataset" → Seleccionar archivo `.txt`
 2. **Ver Métricas**: Panel izquierdo muestra nodos, aristas, memoria CSR
-3. **Nodo Crítico**: Click en "🎯 Nodo Crítico" para calcular nodo con mayor grado
-4. **Ejecutar BFS**: Configurar nodo inicial y profundidad → "🔍 Ejecutar BFS"
+3. **Nodo Crítico**: Click en "Nodo Crítico" para calcular nodo con mayor grado
+4. **Ejecutar BFS**: Configurar nodo inicial y profundidad → "Ejecutar BFS"
 5. **Visualizar**: El canvas muestra el subgrafo resultante con colores por nivel
 
 ### Opción 2: Uso Programático (Python)
@@ -278,7 +278,7 @@ print(f"Vecinos del nodo 5: {vecinos}")
 
 -----
 
-## 📊 Datasets Disponibles
+## Datasets Disponibles
 
 ### Dataset de Prueba (Incluido)
 
@@ -305,7 +305,7 @@ cd data
 
 -----
 
-## 🧪 Ejemplos de Uso
+## Ejemplos de Uso
 
 ### Ejemplo 1: Análisis Básico
 
@@ -370,7 +370,7 @@ for dataset in datasets:
 
 -----
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 ds-unidad-3-actividad-1-grafos-C0RNEJ0/
@@ -391,7 +391,7 @@ ds-unidad-3-actividad-1-grafos-C0RNEJ0/
 
 -----
 
-## 🔬 Detalles Técnicos
+## Detalles Técnicos
 
 ### Estructura CSR Implementada
 
@@ -435,7 +435,7 @@ while (!cola.empty()) {
 
 -----
 
-## 📈 Rendimiento Esperado
+## Rendimiento Esperado
 
 | Dataset | Nodos | Carga | Memoria CSR | BFS (prof=2) |
 |---------|-------|-------|-------------|--------------|
@@ -448,7 +448,7 @@ while (!cola.empty()) {
 
 -----
 
-## ⚠️ Solución de Problemas
+## Solución de Problemas
 
 ### Error: "Module 'grafo_wrapper' not found"
 
@@ -485,7 +485,7 @@ python -c "import matplotlib; print(matplotlib.get_backend())"
 
 -----
 
-## 🎯 Verificación de Requisitos
+## Verificación de Requisitos
 
 ### Checklist de Implementación
 
@@ -505,7 +505,7 @@ python -c "import matplotlib; print(matplotlib.get_backend())"
 
 -----
 
-## 📚 Referencias
+## Referencias
 
 - [SNAP Datasets](https://snap.stanford.edu/data/) - Stanford Large Network Dataset Collection
 - [CSR Format](https://en.wikipedia.org/wiki/Sparse_matrix#Compressed_sparse_row_(CSR,_CRS_or_Yale_format)) - Compressed Sparse Row
@@ -514,6 +514,6 @@ python -c "import matplotlib; print(matplotlib.get_backend())"
 
 -----
 
-## 📝 Licencia
+## Licencia
 
 Proyecto académico - Universidad 2025

@@ -15,9 +15,9 @@ echo "[1/5] Descargando Web-Google (~875K nodos, ~5M aristas)..."
 if [ ! -f "web-Google.txt" ]; then
     wget https://snap.stanford.edu/data/web-Google.txt.gz
     gunzip web-Google.txt.gz
-    echo "✓ Web-Google descargado"
+    echo "OK - Web-Google descargado"
 else
-    echo "✓ Web-Google ya existe"
+    echo "OK - Web-Google ya existe"
 fi
 
 echo ""
@@ -27,9 +27,9 @@ echo "[2/5] Descargando Amazon0601 (~400K nodos, ~3.3M aristas)..."
 if [ ! -f "amazon0601.txt" ]; then
     wget https://snap.stanford.edu/data/amazon0601.txt.gz
     gunzip amazon0601.txt.gz
-    echo "✓ Amazon0601 descargado"
+    echo "OK - Amazon0601 descargado"
 else
-    echo "✓ Amazon0601 ya existe"
+    echo "OK - Amazon0601 ya existe"
 fi
 
 echo ""
@@ -39,35 +39,35 @@ echo "[3/5] Descargando Email-Enron (~36K nodos, ~183K aristas)..."
 if [ ! -f "email-Enron.txt" ]; then
     wget https://snap.stanford.edu/data/email-Enron.txt.gz
     gunzip email-Enron.txt.gz
-    echo "✓ Email-Enron descargado"
+    echo "OK - Email-Enron descargado"
 else
-    echo "✓ Email-Enron ya existe"
+    echo "OK - Email-Enron ya existe"
 fi
 
 echo ""
 
 # Dataset 4: Orkut (Red Social - MASIVO)
 echo "[4/5] Descargando com-Orkut (~3M nodos, ~117M aristas)..."
-echo "⚠️  Advertencia: Este archivo es muy grande (varios GB descomprimido)."
+echo "Advertencia: Este archivo es muy grande (varios GB descomprimido)."
 if [ ! -f "com-Orkut.txt" ]; then
     wget https://snap.stanford.edu/data/com-Orkut.txt.gz
     gunzip com-Orkut.txt.gz
-    echo "✓ com-Orkut descargado"
+    echo "OK - com-Orkut descargado"
 else
-    echo "✓ com-Orkut ya existe"
+    echo "OK - com-Orkut ya existe"
 fi
 
 echo ""
 
 # Dataset 5: LiveJournal (Red Social - MASIVO)
 echo "[5/5] Descargando soc-LiveJournal1 (~4.8M nodos, ~69M aristas)..."
-echo "⚠️  Advertencia: Este archivo es muy grande."
+echo "Advertencia: Este archivo es muy grande."
 if [ ! -f "soc-LiveJournal1.txt" ]; then
     wget https://snap.stanford.edu/data/soc-LiveJournal1.txt.gz
     gunzip soc-LiveJournal1.txt.gz
-    echo "✓ soc-LiveJournal1 descargado"
+    echo "OK - soc-LiveJournal1 descargado"
 else
-    echo "✓ soc-LiveJournal1 ya existe"
+    echo "OK - soc-LiveJournal1 ya existe"
 fi
 
 echo ""

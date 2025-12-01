@@ -75,7 +75,7 @@ class NeuroNetGUI:
         # Botón cargar datos
         self.btn_cargar = tk.Button(
             control_frame,
-            text="📁 Cargar Dataset",
+            text="Cargar Dataset",
             command=self.cargar_dataset,
             bg='#4CAF50',
             fg='white',
@@ -99,7 +99,7 @@ class NeuroNetGUI:
         # Botón calcular nodo crítico
         self.btn_grado = tk.Button(
             control_frame,
-            text="🎯 Nodo Crítico (Mayor Grado)",
+            text="Nodo Crítico (Mayor Grado)",
             command=self.calcular_nodo_critico,
             bg='#2196F3',
             fg='white',
@@ -149,7 +149,7 @@ class NeuroNetGUI:
         
         self.btn_bfs = tk.Button(
             bfs_frame,
-            text="🔍 Ejecutar BFS",
+            text="Ejecutar BFS",
             command=self.ejecutar_bfs,
             bg='#FF9800',
             fg='white',
@@ -276,7 +276,7 @@ class NeuroNetGUI:
             if exito:
                 self.datos_cargados = True
                 self.lbl_archivo.config(
-                    text=f"✅ {os.path.basename(archivo)}",
+                    text=f"[OK] {os.path.basename(archivo)}",
                     fg='#00ff00'
                 )
                 
